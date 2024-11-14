@@ -1,27 +1,45 @@
-# MyApp
+## README สำหรับการรันโปรเจกต์ Angular ในเครื่อง
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+README นี้แนะนำขั้นตอนการติดตั้งและรันโปรเจกต์ Angular บนเครื่องของคุณ
 
-## Development server
+### ข้อกำหนดเบื้องต้น
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Node.js และ npm**: ตรวจสอบให้แน่ใจว่าเครื่องของคุณติดตั้ง Node.js และ npm เรียบร้อยแล้ว สามารถดาวน์โหลดได้จาก [Node.js](https://nodejs.org/)
+2. **Angular CLI**: ติดตั้ง Angular CLI โดยใช้คำสั่งต่อไปนี้:
+   ```bash
+   npm install -g @angular/cli
+   ```
 
-## Code scaffolding
+### ขั้นตอนการรันโปรเจกต์ Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **โคลนโปรเจกต์**:
+   ทำการโคลนโปรเจกต์ไปยังเครื่องของคุณด้วยคำสั่ง:
+   ```bash
+   git clone https://github.com/chaloemchai-beer/CS319_Angular1.git
+   ```
 
-## Build
+2. **เข้าไปในโฟลเดอร์โปรเจกต์**:
+   ```bash
+   cd CS319_Angular1
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **ติดตั้ง Dependencies**:
+   ติดตั้ง dependencies ที่จำเป็นสำหรับโปรเจกต์ด้วยคำสั่ง:
+   ```bash
+   npm install
+   ```
 
-## Running unit tests
+4. **รันโปรเจกต์**:
+   รันโปรเจกต์ด้วยคำสั่ง:
+   ```bash
+   ng serve
+   ```
+   โปรเจกต์จะถูกรันที่ `http://localhost:4200` ตามค่าเริ่มต้น เปิดเบราว์เซอร์และเข้าไปยัง URL นี้เพื่อดูโปรเจกต์ที่รันอยู่
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### ภาพหน้าจอ
 
-## Running end-to-end tests
+ด้านล่างเป็นภาพหน้าจอของการรันโปรเจกต์ Angular ในเครื่อง:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Run Angular Project](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/RunAngular.png)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ภาพแสดงหน้าจอเบราว์เซอร์ที่โปรเจกต์ Angular ทำงานอยู่บน `http://localhost:4200` ซึ่งเป็นสัญญาณว่าโปรเจกต์รันสำเร็จแล้ว
