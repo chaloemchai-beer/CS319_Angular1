@@ -2,7 +2,7 @@
 
 1. first-app:
 
-![first-app](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/RunAngular.png)
+![first-app](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/RunAngular.png)
 
 2. hello-world:
 
@@ -35,3 +35,27 @@
 9. ngFor:
 
 ![ngFor](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/ngFor.png)
+
+10. services:
+
+![services](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/services.png)
+
+11. routing:
+
+![routing](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/routing.png)
+
+12. details-page:
+
+![details-page](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/details-page.png)
+
+13. forms:
+
+![forms](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/forms.png)
+
+14. search:
+
+![search](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/search.png)
+
+15. http:
+
+![http](https://raw.githubusercontent.com/chaloemchai-beer/Image/refs/heads/main/Angular/Face2/http.png)
